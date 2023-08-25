@@ -196,23 +196,25 @@
         .carousel-control-next-icon {
             height: 100px;
             width: 100px;
-            outline: white;
+            outline: yellow;
             background-size: 100%, 100%;
             border-radius: 50%;
-            border: 1px solid white;
+            border: 1px solid yellow;
             background-image: none;
         }
 
         .carousel-control-next-icon:after {
             content: '>>';
             font-size: 55px;
-            color: red;
+            color: yellow;
+            font-weight: bold;
         }
 
         .carousel-control-prev-icon:after {
             content: '<<';
             font-size: 55px;
-            color: red;
+            color: yellow;
+            font-weight: bold;
         }
 
         .openings {
